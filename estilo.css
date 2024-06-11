@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*
+    Informações Gerais do Projeto
+    # Fontes 
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+*/
+/* Layout
+-----------------------------*/
+:root {
+  --primary-color: #4d9de0;
+  --primary-color-dark: #0d3b66;
+  --secondary-color: #2e933c;
+  --secondary-color-dark: #297045;
+  --background-color: #f8f8f8;
+  --text-color: #323232;
+}
+html,
+body,
+#home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background-color);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Barra de navegação
+-----------------------------*/
+nav.navbar-transparente {
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px;
+}
